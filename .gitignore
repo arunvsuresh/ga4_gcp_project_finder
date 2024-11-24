@@ -1,0 +1,14 @@
+# Configuration files with sensitive data
+config.js
+
+# Common files to ignore
+.DS_Store
+.env
+.env.local
+node_modules/
+*.log
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
