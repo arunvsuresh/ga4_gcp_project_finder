@@ -52,14 +52,7 @@ This tool helps you find all BigQuery project numbers associated with your GA4 p
    - You should now see a Python version number
    - If not, restart your computer and try again
 
-### 2. Download the Tool
-1. Download these files:
-   - `index.html`
-   - `config.js` (contains authentication credentials)
-2. Put both files in a new folder on your computer
-   - Example folder location: `Documents/ga4-tool`
-
-### 3. Start the Tool
+### 2. Start the Tool
 #### Windows:
 1. Press Windows key + R
 2. Type `cmd` and press Enter
@@ -73,7 +66,7 @@ This tool helps you find all BigQuery project numbers associated with your GA4 p
 1. Press Command + Space
 2. Type "Terminal" and press Enter
 3. Type `cd ` (including the space)
-4. Drag your tool folder onto the Terminal window
+4. Drag your tool folder (the one you downloaded and unzipped from Slack) onto the Terminal window
 5. Press Enter
 6. Type: `python -m http.server 8000`
 7. Keep this window open
