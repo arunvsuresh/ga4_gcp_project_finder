@@ -68,10 +68,10 @@ This tool helps you find all BigQuery project numbers associated with your GA4 p
 3. Type `cd ` (including the space)
 4. Drag your tool folder (the one you downloaded and unzipped from Slack) onto the Terminal window
 5. Press Enter
-6. Type: `python -m http.server 8000`
+6. Type: `python -m http.server 8000` or `python3 -m http.server 8000` (depending on your version of python)
 7. Keep this window open
 
-### 4. Use the Tool
+### 3. Use the Tool
 1. Open Chrome or Firefox
 2. Go to: http://localhost:8000
 3. Click "Sign in with Google"
@@ -108,5 +108,3 @@ Then use http://localhost:8080 in your browser
 1. Make sure both `index.html` and `config.js` are in the same folder
 2. Check with your admin that you have the correct `config.js`
 
-## Need Help?
-Contact [YOUR_ADMIN_NAME] at [YOUR_ADMIN_EMAIL]
