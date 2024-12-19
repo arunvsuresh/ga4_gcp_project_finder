@@ -110,7 +110,10 @@
            'https://www.googleapis.com/auth/analytics.readonly',
            'https://www.googleapis.com/auth/analytics.manage.users.readonly'
        ];
-       const REDIRECT_URI = window.location.href;
+    //    const REDIRECT_URI = window.location.href;
+
+
+       const REDIRECT_URI = window.location.origin + window.location.pathname;
 
        let tokenClient;
        let gaData = [];
@@ -126,7 +129,7 @@
                client_id: CLIENT_ID,
                scope: SCOPES.join(' '),
                redirect_uri: REDIRECT_URI,
-               callback: '', // defined at request time
+               callback: '', 
            });
        }
 
